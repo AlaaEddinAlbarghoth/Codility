@@ -5,6 +5,7 @@ import kotlin.math.max
 /**
  * Examples: MBA(9) = 2, MBA(529) = 4, MBA(20) = 1, MBA(15) = 0, MBA(1) = 0, MBA(1041) = 5,
  * */
+/* Find the longest sequence of zeros in binary representation of an integer. */
 fun binaryGap(n: Int): Int {
     var number = n
     // # Define the variables we need them here:

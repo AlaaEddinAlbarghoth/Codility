@@ -2,9 +2,10 @@ package codility.lesson2
 
 import codility.utils.printArray
 
-/*
+/**
 * Examples: A = [3, 8, 9, 7, 6], K = 3 ==(Result)==> [9, 7, 6, 3, 8]
 * */
+/* Rotate an array to the right by a given number of steps. */
 fun cyclicRotation(a: IntArray, k: Int): IntArray {
     if (a.isEmpty())
         throw Exception("Array Empty!")
