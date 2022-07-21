@@ -2,6 +2,7 @@ import codility.lesson4.frogRiverOne
 import codility.lesson4.maxCounters
 import codility.lesson4.missingInteger
 import codility.lesson4.permCheck
+import codility.lesson5.passingCars
 
 fun main() {
     /* region Lesson1: Iterations */
@@ -32,5 +33,10 @@ fun main() {
     //println("Minimum value is ${missingInteger(intArrayOf(1, 2, 3))}")
     //println("Minimum value is ${missingInteger(intArrayOf(-1, -3))}")
     //println("Minimum value is ${missingInteger(intArrayOf(1, 3, 6, 4, 1, 2))}")
+    /* endregion */
+
+    /* region Prefix Sums */
+    println("Num of passed cars: " + passingCars(intArrayOf(0, 1, 0, 1, 1)))
+    println("Num of passed cars: " + passingCars(intArrayOf(1, 1,0,1,1,1,1,1,0,1)))
     /* endregion */
 }
