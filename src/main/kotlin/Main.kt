@@ -1,8 +1,4 @@
-import codility.lesson4.frogRiverOne
-import codility.lesson4.maxCounters
-import codility.lesson4.missingInteger
-import codility.lesson4.permCheck
-import codility.lesson5.passingCars
+import codility.lesson5.countDiv
 
 fun main() {
     /* region Lesson1: Iterations */
@@ -36,7 +32,9 @@ fun main() {
     /* endregion */
 
     /* region Prefix Sums */
-    println("Num of passed cars: " + passingCars(intArrayOf(0, 1, 0, 1, 1)))
-    println("Num of passed cars: " + passingCars(intArrayOf(1, 1,0,1,1,1,1,1,0,1)))
+    //println("Num of passed cars: " + passingCars(intArrayOf(0, 1, 0, 1, 1)))
+    //println("Num of passed cars: " + passingCars(intArrayOf(1, 1,0,1,1,1,1,1,0,1)))
+
+    println("The number of integers within the range [A..B] is: " + countDiv(6, 11, 2))
     /* endregion */
 }
