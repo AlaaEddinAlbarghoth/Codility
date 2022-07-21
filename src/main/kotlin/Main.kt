@@ -1,4 +1,5 @@
 import codility.lesson4.frogRiverOne
+import codility.lesson4.permCheck
 
 fun main() {
     /* region Lesson1: Iterations */
@@ -20,6 +21,8 @@ fun main() {
     /* endregion */
 
     /* region Counting Elements */
-    frogRiverOne(5, intArrayOf(1, 3, 1, 4, 2, 3, 5, 4))
+    //frogRiverOne(5, intArrayOf(1, 3, 1, 4, 2, 3, 5, 4))
+
+    permCheck(intArrayOf(4, 1, 3, 2))
     /* endregion */
 }

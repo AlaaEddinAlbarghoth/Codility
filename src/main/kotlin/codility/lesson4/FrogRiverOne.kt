@@ -2,6 +2,10 @@ package codility.lesson4
 
 import codility.utils.printArray
 
+/**
+ * Example: A[0] = 1, A[1] = 3, A[2] = 1, A[3] = 4, A[4] = 2, A[5] = 3, A[6] = 5, A[7] = 4  ==(Result)==> 6
+ * */
+/* Find the earliest time when a frog can jump to the other side of a river. */
 fun frogRiverOne(x: Int, a: IntArray): Int {
     val list = arrayListOf<Int>()
 
