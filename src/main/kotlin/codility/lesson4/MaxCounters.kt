@@ -4,7 +4,7 @@ import codility.utils.printArray
 import kotlin.math.max
 
 /**
- * A[0] = 3, A[1] = 4, A[2] = 4, A[3] = 6, A[4] = 1, A[5] = 4, A[6] = 4 ==(Result)==>
+ * A[0] = 3, A[1] = 4, A[2] = 4, A[3] = 6, A[4] = 1, A[5] = 4, A[6] = 4 ==(Result)==> [3 2 2 4 2]
  * */
 /*
 * Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum.

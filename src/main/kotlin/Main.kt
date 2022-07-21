@@ -1,5 +1,6 @@
 import codility.lesson4.frogRiverOne
 import codility.lesson4.maxCounters
+import codility.lesson4.missingInteger
 import codility.lesson4.permCheck
 
 fun main() {
@@ -26,6 +27,10 @@ fun main() {
 
     //permCheck(intArrayOf(4, 1, 3, 2))
 
-    maxCounters(5, intArrayOf(3,4,4,6,1,4,4))
+    //maxCounters(5, intArrayOf(3,4,4,6,1,4,4))
+
+    //println("Minimum value is ${missingInteger(intArrayOf(1, 2, 3))}")
+    //println("Minimum value is ${missingInteger(intArrayOf(-1, -3))}")
+    //println("Minimum value is ${missingInteger(intArrayOf(1, 3, 6, 4, 1, 2))}")
     /* endregion */
 }
