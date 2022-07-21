@@ -1,4 +1,6 @@
-import codility.lesson5.countDiv
+import codility.lesson5.genomicRangeQuerySol1
+import codility.lesson5.genomicRangeQuerySol2
+import codility.utils.printArray
 
 fun main() {
     /* region Lesson1: Iterations */
@@ -35,6 +37,16 @@ fun main() {
     //println("Num of passed cars: " + passingCars(intArrayOf(0, 1, 0, 1, 1)))
     //println("Num of passed cars: " + passingCars(intArrayOf(1, 1,0,1,1,1,1,1,0,1)))
 
-    println("The number of integers within the range [A..B] is: " + countDiv(6, 11, 2))
+    //println("The number of integers within the range [A..B] is: " + countDiv(6, 11, 2))
+
+    println("genomicRangeQuery")
+    val array1 = intArrayOf(2, 5, 0)
+    val array2 = intArrayOf(4, 5, 6)
+    print("P : ")
+    printArray(array1)
+    print("Q : ")
+    printArray(array2)
+    printArray(genomicRangeQuerySol2("CAGCCTA", array1, array2))
+    //printArray(genomicRangeQuerySol1("CAGCCTA", array1, array2))
     /* endregion */
 }
