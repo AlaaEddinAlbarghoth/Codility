@@ -1,6 +1,4 @@
-import codility.lesson3.frogJmp
-import codility.lesson3.missingElement
-import codility.lesson3.tapeEquilibrium
+import codility.lesson4.frogRiverOne
 
 fun main() {
     /* region Lesson1: Iterations */
@@ -17,6 +15,11 @@ fun main() {
     //frogJmp(10, 85, 30)
 
     //missingElement(intArrayOf(2,3,1,5))
-    tapeEquilibrium(intArrayOf(3,1,2,4,3))
+
+    //tapeEquilibrium(intArrayOf(3, 1, 2, 4, 3))
+    /* endregion */
+
+    /* region Counting Elements */
+    frogRiverOne(5, intArrayOf(1, 3, 1, 4, 2, 3, 5, 4))
     /* endregion */
 }
