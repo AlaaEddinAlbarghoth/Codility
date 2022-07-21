@@ -1,4 +1,5 @@
 import codility.lesson4.frogRiverOne
+import codility.lesson4.maxCounters
 import codility.lesson4.permCheck
 
 fun main() {
@@ -23,6 +24,8 @@ fun main() {
     /* region Counting Elements */
     //frogRiverOne(5, intArrayOf(1, 3, 1, 4, 2, 3, 5, 4))
 
-    permCheck(intArrayOf(4, 1, 3, 2))
+    //permCheck(intArrayOf(4, 1, 3, 2))
+
+    maxCounters(5, intArrayOf(3,4,4,6,1,4,4))
     /* endregion */
 }
