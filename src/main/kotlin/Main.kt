@@ -1,5 +1,6 @@
 import codility.lesson5.genomicRangeQuerySol1
 import codility.lesson5.genomicRangeQuerySol2
+import codility.lesson5.minAvgTwoSlice
 import codility.utils.printArray
 
 fun main() {
@@ -39,14 +40,25 @@ fun main() {
 
     //println("The number of integers within the range [A..B] is: " + countDiv(6, 11, 2))
 
-    println("genomicRangeQuery")
-    val array1 = intArrayOf(2, 5, 0)
-    val array2 = intArrayOf(4, 5, 6)
-    print("P : ")
-    printArray(array1)
-    print("Q : ")
-    printArray(array2)
-    printArray(genomicRangeQuerySol2("CAGCCTA", array1, array2))
+    //println("genomicRangeQuery")
+    //val array1 = intArrayOf(2, 5, 0)
+    //val array2 = intArrayOf(4, 5, 6)
+    //print("P : ")
+    //printArray(array1)
+    //print("Q : ")
+    //printArray(array2)
+    //printArray(genomicRangeQuerySol2("CAGCCTA", array1, array2))
     //printArray(genomicRangeQuerySol1("CAGCCTA", array1, array2))
+
+//    val l = ArrayList<Int>()
+//    for (i in 1..10)
+//        l.add(i)
+//    for (i in 0..(l.size - 2)) {
+//        println(i)
+//    }
+    println(
+        "The starting position of the slice with the minimal average = "
+                + minAvgTwoSlice(intArrayOf(4, 2, 2, 5, 1, 5, 8))
+    )
     /* endregion */
 }
