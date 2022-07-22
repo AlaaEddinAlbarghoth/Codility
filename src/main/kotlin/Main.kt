@@ -1,6 +1,7 @@
-import codility.lesson6.distinct
+import codility.lesson6.maxProductOfThree
 
 fun main() {
+
     /* region Lesson1: Iterations */
     // binaryGap(1041)
     /* endregion */
@@ -60,6 +61,8 @@ fun main() {
     /* endregion */
 
     /* region Sorting */
-    distinct(intArrayOf(2, 1, 1, 2, 3, 1))
+    //distinct(intArrayOf(2, 1, 1, 2, 3, 1))
+
+    println("Max product of three: " + maxProductOfThree(intArrayOf(-3, 1, 2, -2, 5, 6)))
     /* endregion */
 }
