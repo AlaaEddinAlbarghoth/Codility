@@ -1,7 +1,4 @@
-import codility.lesson5.genomicRangeQuerySol1
-import codility.lesson5.genomicRangeQuerySol2
-import codility.lesson5.minAvgTwoSlice
-import codility.utils.printArray
+import codility.lesson6.distinct
 
 fun main() {
     /* region Lesson1: Iterations */
@@ -50,15 +47,19 @@ fun main() {
     //printArray(genomicRangeQuerySol2("CAGCCTA", array1, array2))
     //printArray(genomicRangeQuerySol1("CAGCCTA", array1, array2))
 
-//    val l = ArrayList<Int>()
-//    for (i in 1..10)
-//        l.add(i)
-//    for (i in 0..(l.size - 2)) {
-//        println(i)
-//    }
-    println(
-        "The starting position of the slice with the minimal average = "
-                + minAvgTwoSlice(intArrayOf(4, 2, 2, 5, 1, 5, 8))
-    )
+    //val l = ArrayList<Int>()
+    //for (i in 1..10)
+    //    l.add(i)
+    //for (i in 0..(l.size - 2)) {
+    //    println(i)
+    //}
+    //println(
+    //    "The starting position of the slice with the minimal average = "
+    //            + minAvgTwoSlice(intArrayOf(4, 2, 2, 5, 1, 5, 8))
+    //)
+    /* endregion */
+
+    /* region Sorting */
+    distinct(intArrayOf(2, 1, 1, 2, 3, 1))
     /* endregion */
 }
