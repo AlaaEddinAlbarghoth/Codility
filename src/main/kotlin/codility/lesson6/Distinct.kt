@@ -23,3 +23,4 @@ fun distinct(a: IntArray): Int {
 
     return result
 }
+

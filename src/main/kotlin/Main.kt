@@ -1,4 +1,4 @@
-import codility.lesson6.maxProductOfThree
+import codility.lesson6.triangle
 
 fun main() {
 
@@ -63,6 +63,9 @@ fun main() {
     /* region Sorting */
     //distinct(intArrayOf(2, 1, 1, 2, 3, 1))
 
-    println("Max product of three: " + maxProductOfThree(intArrayOf(-3, 1, 2, -2, 5, 6)))
+    //println("Max product of three: " + maxProductOfThree(intArrayOf(-3, 1, 2, -2, 5, 6)))
+
+    println("Triangle result is : " + triangle(intArrayOf(10, 2, 5, 1, 8, 20)))
+    println("Triangle result is : " + triangle(intArrayOf(10, 50, 5, 1)))
     /* endregion */
 }
