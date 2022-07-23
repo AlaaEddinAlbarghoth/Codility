@@ -1,4 +1,5 @@
-import codility.lesson6.triangle
+import codility.lesson6.numberOfDiscIntersections
+import codility.utils.printArray
 
 fun main() {
 
@@ -65,7 +66,12 @@ fun main() {
 
     //println("Max product of three: " + maxProductOfThree(intArrayOf(-3, 1, 2, -2, 5, 6)))
 
-    println("Triangle result is : " + triangle(intArrayOf(10, 2, 5, 1, 8, 20)))
-    println("Triangle result is : " + triangle(intArrayOf(10, 50, 5, 1)))
+    //println("Triangle result is : " + triangle(intArrayOf(10, 2, 5, 1, 8, 20)))
+    //println("Triangle result is : " + triangle(intArrayOf(10, 50, 5, 1)))
+
+    val array = intArrayOf(1, 5, 2, 1, 4, 0)
+    print("Array = ")
+    printArray(array)
+    println("numberOfDiscIntersections = " + numberOfDiscIntersections(array))
     /* endregion */
 }
