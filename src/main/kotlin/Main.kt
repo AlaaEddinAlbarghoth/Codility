@@ -1,5 +1,4 @@
-import codility.lesson6.numberOfDiscIntersections
-import codility.utils.printArray
+import codility.lesson7.brackets
 
 fun main() {
 
@@ -69,9 +68,15 @@ fun main() {
     //println("Triangle result is : " + triangle(intArrayOf(10, 2, 5, 1, 8, 20)))
     //println("Triangle result is : " + triangle(intArrayOf(10, 50, 5, 1)))
 
-    val array = intArrayOf(1, 5, 2, 1, 4, 0)
-    print("Array = ")
-    printArray(array)
-    println("numberOfDiscIntersections = " + numberOfDiscIntersections(array))
+    //val array = intArrayOf(1, 5, 2, 1, 4, 0)
+    //print("Array = ")
+    //printArray(array)
+    //println("numberOfDiscIntersections = " + numberOfDiscIntersections(array))
+    /* endregion */
+
+    /* region Stack and Queues */
+    println("Check result is = " + brackets("{[()()]}"))
+    println("Check result is = " + brackets("([)()]"))
+    println("Check result is = " + brackets("(((((((((()))))))"))
     /* endregion */
 }
