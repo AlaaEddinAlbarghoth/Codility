@@ -1,4 +1,4 @@
-import codility.lesson7.stoneWall
+import codility.lesson8.dominator
 
 fun main() {
 
@@ -87,9 +87,13 @@ fun main() {
     //println("Nesting result is = " + nesting("(()(())())"))
     //println("Nesting result is = " + nesting("(((((((((()))))))"))
 
-    println(
-        "(Stone Wall) Minimum number of blocks needed here is = " +
-                stoneWall(intArrayOf(8, 8, 5, 7, 9, 8, 7, 4, 8))
-    )
+    //println(
+    //    "(Stone Wall) Minimum number of blocks needed here is = " +
+    //            stoneWall(intArrayOf(8, 8, 5, 7, 9, 8, 7, 4, 8))
+    //)
+    /* endregion */
+
+    /* region Lead */
+    println("The dominator is = " + dominator(intArrayOf(3, 4, 3, 2, 3, -1, 3, 3)))
     /* endregion */
 }
