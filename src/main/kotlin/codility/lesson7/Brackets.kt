@@ -13,7 +13,6 @@ fun brackets(s: String): Int {
     // Special cases
     when {
         s.isEmpty() -> return 1
-        s.length % 2 == 1 -> return 0
     }
 
     // Create a stack to store all chars

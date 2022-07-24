@@ -1,4 +1,4 @@
-import codility.lesson7.fish
+import codility.lesson7.nesting
 
 fun main() {
 
@@ -75,13 +75,16 @@ fun main() {
     /* endregion */
 
     /* region Stack and Queues */
-    //println("Check result is = " + brackets("{[()()]}"))
-    //println("Check result is = " + brackets("([)()]"))
-    //println("Check result is = " + brackets("(((((((((()))))))"))
+    //println("Brackets result is = " + brackets("{[()()]}"))
+    //println("Brackets result is = " + brackets("([)()]"))
+    //println("Brackets result is = " + brackets("(((((((((()))))))"))
 
 
-    val array1 = intArrayOf(4, 3, 2, 1, 5)
-    val array2 = intArrayOf(0, 1, 0, 0, 0)
-    println("Number of fish that will stay alive = " + fish(array1, array2))
+    //val array1 = intArrayOf(4, 3, 2, 1, 5)
+    //val array2 = intArrayOf(0, 1, 0, 0, 0)
+    //println("Number of fish that will stay alive = " + fish(array1, array2))
+
+    println("Nesting result is = " + nesting("(()(())())"))
+    println("Nesting result is = " + nesting("(((((((((()))))))"))
     /* endregion */
 }
