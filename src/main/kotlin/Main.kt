@@ -1,4 +1,4 @@
-import codility.lesson7.brackets
+import codility.lesson7.fish
 
 fun main() {
 
@@ -75,8 +75,13 @@ fun main() {
     /* endregion */
 
     /* region Stack and Queues */
-    println("Check result is = " + brackets("{[()()]}"))
-    println("Check result is = " + brackets("([)()]"))
-    println("Check result is = " + brackets("(((((((((()))))))"))
+    //println("Check result is = " + brackets("{[()()]}"))
+    //println("Check result is = " + brackets("([)()]"))
+    //println("Check result is = " + brackets("(((((((((()))))))"))
+
+
+    val array1 = intArrayOf(4, 3, 2, 1, 5)
+    val array2 = intArrayOf(0, 1, 0, 0, 0)
+    println("Number of fish that will stay alive = " + fish(array1, array2))
     /* endregion */
 }
