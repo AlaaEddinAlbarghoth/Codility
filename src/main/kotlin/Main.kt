@@ -1,4 +1,4 @@
-import codility.lesson7.nesting
+import codility.lesson7.stoneWall
 
 fun main() {
 
@@ -84,7 +84,12 @@ fun main() {
     //val array2 = intArrayOf(0, 1, 0, 0, 0)
     //println("Number of fish that will stay alive = " + fish(array1, array2))
 
-    println("Nesting result is = " + nesting("(()(())())"))
-    println("Nesting result is = " + nesting("(((((((((()))))))"))
+    //println("Nesting result is = " + nesting("(()(())())"))
+    //println("Nesting result is = " + nesting("(((((((((()))))))"))
+
+    println(
+        "(Stone Wall) Minimum number of blocks needed here is = " +
+                stoneWall(intArrayOf(8, 8, 5, 7, 9, 8, 7, 4, 8))
+    )
     /* endregion */
 }
