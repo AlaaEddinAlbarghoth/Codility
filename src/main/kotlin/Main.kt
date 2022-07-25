@@ -1,4 +1,4 @@
-import codility.lesson9.maxProfit
+import codility.lesson9.maxSliceSum
 
 fun main() {
 
@@ -98,6 +98,8 @@ fun main() {
 
     //println("The equiLeader count is = " + equiLeader(intArrayOf(4, 3, 4, 4, 4, 2)))
 
-    println("The maxProfit is = " + maxProfit(intArrayOf(23171, 21011, 21123, 21366, 21013, 21367)))
+    //println("The maxProfit is = " + maxProfit(intArrayOf(23171, 21011, 21123, 21366, 21013, 21367)))
+
+    println("The MaxSliceSum is = " + maxSliceSum(intArrayOf(3, 2, -6, 4, 0)))
     /* endregion */
 }
