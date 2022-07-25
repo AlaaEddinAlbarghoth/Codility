@@ -1,4 +1,4 @@
-import codility.lesson8.dominator
+import codility.lesson8.equiLeader
 
 fun main() {
 
@@ -94,6 +94,8 @@ fun main() {
     /* endregion */
 
     /* region Lead */
-    println("The dominator is = " + dominator(intArrayOf(3, 4, 3, 2, 3, -1, 3, 3)))
+    //println("The dominator is = " + dominator(intArrayOf(3, 4, 3, 2, 3, -1, 3, 3)))
+
+    println("The equiLeader count is = " + equiLeader(intArrayOf(4, 3, 4, 4, 4, 2)))
     /* endregion */
 }
