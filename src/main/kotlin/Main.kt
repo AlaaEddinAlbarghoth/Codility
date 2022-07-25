@@ -1,4 +1,4 @@
-import codility.lesson8.equiLeader
+import codility.lesson9.maxProfit
 
 fun main() {
 
@@ -96,6 +96,8 @@ fun main() {
     /* region Lead */
     //println("The dominator is = " + dominator(intArrayOf(3, 4, 3, 2, 3, -1, 3, 3)))
 
-    println("The equiLeader count is = " + equiLeader(intArrayOf(4, 3, 4, 4, 4, 2)))
+    //println("The equiLeader count is = " + equiLeader(intArrayOf(4, 3, 4, 4, 4, 2)))
+
+    println("The maxProfit is = " + maxProfit(intArrayOf(23171, 21011, 21123, 21366, 21013, 21367)))
     /* endregion */
 }
