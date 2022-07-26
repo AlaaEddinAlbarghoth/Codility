@@ -1,4 +1,4 @@
-import codility.lesson9.maxDoubleSliceSum
+import codility.lesson10.countFactors
 
 fun main() {
 
@@ -102,6 +102,10 @@ fun main() {
 
     //println("The MaxSliceSum is = " + maxSliceSum(intArrayOf(3, 2, -6, 4, 0)))
 
-    println("The MaxDoubleSliceSum is = " + maxDoubleSliceSum(intArrayOf(3, 2, 6, -1, 4, 5, -1, 2)))
+    //println("The MaxDoubleSliceSum is = " + maxDoubleSliceSum(intArrayOf(3, 2, 6, -1, 4, 5, -1, 2)))
+    /* endregion */
+
+    /* region Prime and composite numbers */
+    println("The Count of the factors is = " + countFactors(24))
     /* endregion */
 }
