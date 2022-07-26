@@ -1,4 +1,4 @@
-import codility.lesson9.maxSliceSum
+import codility.lesson9.maxDoubleSliceSum
 
 fun main() {
 
@@ -100,6 +100,8 @@ fun main() {
 
     //println("The maxProfit is = " + maxProfit(intArrayOf(23171, 21011, 21123, 21366, 21013, 21367)))
 
-    println("The MaxSliceSum is = " + maxSliceSum(intArrayOf(3, 2, -6, 4, 0)))
+    //println("The MaxSliceSum is = " + maxSliceSum(intArrayOf(3, 2, -6, 4, 0)))
+
+    println("The MaxDoubleSliceSum is = " + maxDoubleSliceSum(intArrayOf(3, 2, 6, -1, 4, 5, -1, 2)))
     /* endregion */
 }
