@@ -1,4 +1,4 @@
-import codility.lesson10.countFactors
+import codility.lesson10.minPerimeterRectangle
 
 fun main() {
 
@@ -106,6 +106,8 @@ fun main() {
     /* endregion */
 
     /* region Prime and composite numbers */
-    println("The Count of the factors is = " + countFactors(24))
+    //println("The Count of the factors is = " + countFactors(24))
+
+    println("The MinPerimeterRectangle is = " + minPerimeterRectangle(30))
     /* endregion */
 }
