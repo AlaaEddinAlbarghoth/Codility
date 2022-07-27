@@ -1,4 +1,5 @@
-import codility.lesson10.peeks
+import codility.lesson11.countNonDivisible
+import codility.utils.printArray
 
 fun main() {
 
@@ -109,6 +110,12 @@ fun main() {
     //println("The Count of the factors is = " + countFactors(24))
 
     //println("The MinPerimeterRectangle is = " + minPerimeterRectangle(30)
-    println("The maximum number of blocks in A is = " + peeks(intArrayOf(1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2)))
+
+    // println("The maximum number of blocks in A is = " + peeks(intArrayOf(1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2)))
+    /* endregion */
+
+    /* region Sieve of Eratosthenes */
+    println("The CountNonDivisible (sequence of integers representing the amount of non-divisors) is: ")
+    printArray(countNonDivisible(intArrayOf(3, 1, 2, 3, 6)))
     /* endregion */
 }
