@@ -2,6 +2,13 @@ package codility.lesson10
 
 import kotlin.math.min
 
+/*
+* Find the minimal perimeter of any rectangle whose area equals N.
+* */
+
+/**
+ * Example:  N = 30, Result ==> 22
+ * */
 fun minPerimeterRectangle(n: Int): Int {
 
     // The output of the Algorithm

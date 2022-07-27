@@ -1,4 +1,4 @@
-import codility.lesson10.minPerimeterRectangle
+import codility.lesson10.peeks
 
 fun main() {
 
@@ -108,6 +108,7 @@ fun main() {
     /* region Prime and composite numbers */
     //println("The Count of the factors is = " + countFactors(24))
 
-    println("The MinPerimeterRectangle is = " + minPerimeterRectangle(30))
+    //println("The MinPerimeterRectangle is = " + minPerimeterRectangle(30)
+    println("The maximum number of blocks in A is = " + peeks(intArrayOf(1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2)))
     /* endregion */
 }
