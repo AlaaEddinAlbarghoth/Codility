@@ -1,4 +1,4 @@
-import codility.lesson11.countNonDivisible
+import codility.lesson11.countSemiprimes
 import codility.utils.printArray
 
 fun main() {
@@ -115,7 +115,10 @@ fun main() {
     /* endregion */
 
     /* region Sieve of Eratosthenes */
-    println("The CountNonDivisible (sequence of integers representing the amount of non-divisors) is: ")
-    printArray(countNonDivisible(intArrayOf(3, 1, 2, 3, 6)))
+//    println("The CountNonDivisible (sequence of integers representing the amount of non-divisors) is: ")
+//    printArray(countNonDivisible(intArrayOf(3, 1, 2, 3, 6)))
+
+    println("The M elements specifying the consecutive answers to all the queries. is: ")
+    printArray(countSemiprimes(26, intArrayOf(1, 4, 16), intArrayOf(26, 10, 20)))
     /* endregion */
 }
