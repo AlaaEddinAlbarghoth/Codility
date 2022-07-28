@@ -1,5 +1,4 @@
-import codility.lesson11.countSemiprimes
-import codility.utils.printArray
+import codility.lesson12.chocolatesByNumbers
 
 fun main() {
 
@@ -118,7 +117,12 @@ fun main() {
 //    println("The CountNonDivisible (sequence of integers representing the amount of non-divisors) is: ")
 //    printArray(countNonDivisible(intArrayOf(3, 1, 2, 3, 6)))
 
-    println("The M elements specifying the consecutive answers to all the queries. is: ")
-    printArray(countSemiprimes(26, intArrayOf(1, 4, 16), intArrayOf(26, 10, 20)))
+//    println("The M elements specifying the consecutive answers to all the queries. is: ")
+//    printArray(countSemiprimes(26, intArrayOf(1, 4, 16), intArrayOf(26, 10, 20)))
+    /* endregion */
+
+    /* region Euclidean algorithm */
+    println("The number of chocolates that you will eat is = " + chocolatesByNumbers(10, 4))
+
     /* endregion */
 }
