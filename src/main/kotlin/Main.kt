@@ -1,4 +1,5 @@
 import codility.lesson13.fibFrog
+import codility.lesson14.minMaxDivision
 
 fun main() {
 
@@ -131,12 +132,17 @@ fun main() {
 //    println("The array consisting of ${a.size} integers specifying the consecutive answers: ")
 //    printArray(ladder(a, b))
 
-    fibFrog(intArrayOf(0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0)).let {
-        if (it == -1)
-            println("The frog cannot reach the other side of the river")
-        else
-            println("The minimum number of jumps by which the frog can get to the other side of the river is = $it")
-    }
+//    fibFrog(intArrayOf(0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0)).let {
+//        if (it == -1)
+//            println("The frog cannot reach the other side of the river")
+//        else
+//            println("The minimum number of jumps by which the frog can get to the other side of the river is = $it")
+//    }
 
+    /* endregion */
+
+
+    /* region Binary Search Algorithm */
+    println("The minimal large sum = ${minMaxDivision(3, 5, intArrayOf(2, 1, 5, 1, 2, 2, 2))}")
     /* endregion */
 }
