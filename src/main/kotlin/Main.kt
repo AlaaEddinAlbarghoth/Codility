@@ -1,5 +1,4 @@
-import codility.lesson13.ladder
-import codility.utils.printArray
+import codility.lesson13.fibFrog
 
 fun main() {
 
@@ -127,9 +126,17 @@ fun main() {
     /* endregion */
 
     /* region Fibonacci numbers */
-    val a = intArrayOf(4, 4, 5, 5, 1)
-    val b = intArrayOf(3, 2, 4, 3, 1)
-    println("The array consisting of ${a.size} integers specifying the consecutive answers: ")
-    printArray(ladder(a, b))
+//    val a = intArrayOf(4, 4, 5, 5, 1)
+//    val b = intArrayOf(3, 2, 4, 3, 1)
+//    println("The array consisting of ${a.size} integers specifying the consecutive answers: ")
+//    printArray(ladder(a, b))
+
+    fibFrog(intArrayOf(0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0)).let {
+        if (it == -1)
+            println("The frog cannot reach the other side of the river")
+        else
+            println("The minimum number of jumps by which the frog can get to the other side of the river is = $it")
+    }
+
     /* endregion */
 }
