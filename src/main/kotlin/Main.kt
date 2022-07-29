@@ -1,4 +1,5 @@
-import codility.lesson12.chocolatesByNumbers
+import codility.lesson13.ladder
+import codility.utils.printArray
 
 fun main() {
 
@@ -122,7 +123,13 @@ fun main() {
     /* endregion */
 
     /* region Euclidean algorithm */
-    println("The number of chocolates that you will eat is = " + chocolatesByNumbers(10, 4))
+//    println("The number of chocolates that you will eat is = " + chocolatesByNumbers(10, 4))
+    /* endregion */
 
+    /* region Fibonacci numbers */
+    val a = intArrayOf(4, 4, 5, 5, 1)
+    val b = intArrayOf(3, 2, 4, 3, 1)
+    println("The array consisting of ${a.size} integers specifying the consecutive answers: ")
+    printArray(ladder(a, b))
     /* endregion */
 }
