@@ -1,5 +1,4 @@
-import codility.lesson13.fibFrog
-import codility.lesson14.minMaxDivision
+import codility.lesson15.absDistinct
 
 fun main() {
 
@@ -143,6 +142,10 @@ fun main() {
 
 
     /* region Binary Search Algorithm */
-    println("The minimal large sum = ${minMaxDivision(3, 5, intArrayOf(2, 1, 5, 1, 2, 2, 2))}")
+//    println("The minimal large sum = ${minMaxDivision(3, 5, intArrayOf(2, 1, 5, 1, 2, 2, 2))}")
+    /* endregion */
+
+    /* region */
+    println("The absolute distinct count is ${absDistinct(intArrayOf(-5, -3, -1, 0, 3, 6))}")
     /* endregion */
 }
