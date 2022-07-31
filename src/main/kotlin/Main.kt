@@ -1,4 +1,5 @@
 import codility.lesson15.countTriangles
+import codility.lesson16.maxNonOverlappingSegments
 
 fun main() {
 
@@ -150,6 +151,17 @@ fun main() {
 
 //    println("The number of distinct slices is ${countDistinctSlices(6, intArrayOf(3, 4, 5, 5, 2))}")
 
-    println("The number of triangular triplets in this array is ${countTriangles(intArrayOf(10, 2, 5, 1, 8, 12))}")
+//    println("The number of triangular triplets in this array is ${countTriangles(intArrayOf(10, 2, 5, 1, 8, 12))}")
+    /* endregion */
+
+    /* region Greedy algorithms */
+    println(
+        "The number of triangular triplets in this array is ${
+            maxNonOverlappingSegments(
+                intArrayOf(1, 3,  7, 9, 9),
+                intArrayOf(5, 6, 8, 9, 10)
+            )
+        }"
+    )
     /* endregion */
 }
