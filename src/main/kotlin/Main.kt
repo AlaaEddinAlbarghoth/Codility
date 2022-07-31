@@ -1,4 +1,4 @@
-import codility.lesson15.countDistinctSlices
+import codility.lesson15.countTriangles
 
 fun main() {
 
@@ -148,6 +148,8 @@ fun main() {
     /* region */
 //    println("The absolute distinct count is ${absDistinct(intArrayOf(-5, -3, -1, 0, 3, 6))}")
 
-    println("The absolute distinct count is ${countDistinctSlices(6, intArrayOf(3, 4, 5, 5, 2))}")
+//    println("The number of distinct slices is ${countDistinctSlices(6, intArrayOf(3, 4, 5, 5, 2))}")
+
+    println("The number of triangular triplets in this array is ${countTriangles(intArrayOf(10, 2, 5, 1, 8, 12))}")
     /* endregion */
 }

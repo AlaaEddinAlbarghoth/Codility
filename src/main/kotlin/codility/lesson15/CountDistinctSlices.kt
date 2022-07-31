@@ -5,6 +5,7 @@ package codility.lesson15
 * */
 /**
  * Example: 3, 4, 5, 5, 2
+ * Result = 9
  * */
 fun countDistinctSlices(m: Int, a: IntArray): Int {
 
