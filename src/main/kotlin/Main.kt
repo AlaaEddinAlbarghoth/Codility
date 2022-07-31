@@ -1,4 +1,4 @@
-import codility.lesson15.absDistinct
+import codility.lesson15.countDistinctSlices
 
 fun main() {
 
@@ -146,6 +146,8 @@ fun main() {
     /* endregion */
 
     /* region */
-    println("The absolute distinct count is ${absDistinct(intArrayOf(-5, -3, -1, 0, 3, 6))}")
+//    println("The absolute distinct count is ${absDistinct(intArrayOf(-5, -3, -1, 0, 3, 6))}")
+
+    println("The absolute distinct count is ${countDistinctSlices(6, intArrayOf(3, 4, 5, 5, 2))}")
     /* endregion */
 }
