@@ -1,4 +1,5 @@
 import codility.lesson16.tieRopes
+import codility.lesson17.numberSolitaire
 
 fun main() {
 
@@ -172,5 +173,15 @@ fun main() {
         }"
     )
 
+    /* endregion */
+
+    /* region Dynamic Programming */
+    println(
+        "The maximal result that can be achieved on the board represented by array A is ${
+            numberSolitaire(
+                intArrayOf(1, -2, 0, 9, -1, -2)
+            )
+        }"
+    )
     /* endregion */
 }
