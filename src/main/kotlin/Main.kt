@@ -1,5 +1,4 @@
-import codility.lesson15.countTriangles
-import codility.lesson16.maxNonOverlappingSegments
+import codility.lesson16.tieRopes
 
 fun main() {
 
@@ -155,13 +154,23 @@ fun main() {
     /* endregion */
 
     /* region Greedy algorithms */
+//    println(
+//        "The number of triangular triplets in this array is ${
+//            maxNonOverlappingSegments(
+//                intArrayOf(1, 3, 7, 9, 9),
+//                intArrayOf(5, 6, 8, 9, 10)
+//            )
+//        }"
+//    )
+
     println(
-        "The number of triangular triplets in this array is ${
-            maxNonOverlappingSegments(
-                intArrayOf(1, 3,  7, 9, 9),
-                intArrayOf(5, 6, 8, 9, 10)
+        "The maximum number of ropes of length greater than or equal to 4 that can be created is ${
+            tieRopes(
+                4,
+                intArrayOf(1, 2, 3, 4, 1, 1, 3)
             )
         }"
     )
+
     /* endregion */
 }
